@@ -48,6 +48,7 @@ function _draw()
 	     message_popup()
 	   end
   end
+  display_debug()
 end
 
 
@@ -322,6 +323,13 @@ if (btnp(⬅️) or btnp(➡️)) then
 		random_encounter=true
 	end
 	end
+end
+-->8
+--debugger
+function display_debug()
+ camera()
+rectfill(5,5,110,20,08)
+print(px,10,10,10)
 end
 __gfx__
 0000000066666666cccccccc55cccccc5555555555555555cccccccccccccccccccccccccccccc0066666600666666660cccccccccccccc0cccccc0000000000
